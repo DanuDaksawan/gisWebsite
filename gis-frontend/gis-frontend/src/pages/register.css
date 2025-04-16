@@ -1,0 +1,74 @@
+/* Register container */
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields */
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button styles */
+  .login-form button {
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .login-form button:hover {
+    background-color: #004c99;
+  }
+  
+  /* Message styling */
+  .login-message {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Disabled button state */
+  .login-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    .login-form input {
+      font-size: 14px;
+    }
+  
+    .login-form button {
+      font-size: 14px;
+    }
+  }
